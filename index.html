@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sivannarayana Origanti — AWS Cloud & DevOps Engineer">
+  <title>Siva Origanti — Cloud & DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <nav class="nav">
+    <a href="#" class="logo">SO<span>.</span></a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="resume.pdf" target="_blank">Resume ↗</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <div class="status"><i></i> Available for Cloud & DevOps opportunities</div>
+        <p class="kicker">AWS CLOUD · DEVOPS · SRE</p>
+        <h1>Building cloud systems<br><em>that don't wake you up.</em></h1>
+        <p class="hero-text">I'm <strong>Sivannarayana Origanti</strong>, a Cloud & DevOps Engineer focused on AWS infrastructure, automation, Kubernetes, CI/CD, security and reliable production operations.</p>
+        <div class="hero-actions">
+          <a class="btn btn-main" href="#work">Explore my work <span>↓</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/sivannarayana-origanti/" target="_blank">LinkedIn ↗</a>
+        </div>
+        <div class="micro">Bengaluru · India &nbsp; / &nbsp; 4.4+ years in Cloud & DevOps</div>
+      </div>
+
+      <div class="terminal-card reveal delay">
+        <div class="terminal-head"><span></span><span></span><span></span><b>production.sh</b></div>
+        <div class="terminal-body">
+          <p><i>$</i> ./deploy --environment prod</p>
+          <p class="ok">✓ infrastructure validated</p>
+          <p class="ok">✓ security checks passed</p>
+          <p class="ok">✓ containers healthy</p>
+          <p class="ok">✓ monitoring connected</p>
+          <p><i>$</i> ./status</p>
+          <div class="terminal-status">
+            <div><span>API</span><strong>99.99%</strong></div>
+            <div><span>CPU</span><strong>42%</strong></div>
+            <div><span>DEPLOY</span><strong>LIVE</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="numbers reveal">
+      <div><div><strong>4.4+</strong><span>Years Experience</span></div>
+      <div><strong>25%</strong><span>AWS Cost Reduction</span></div>
+      <div><strong>4+</strong><span>Client Projects</span></div>
+      <div><strong>3–5</strong><span>Engineers Led</span></div></div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-intro reveal">
+        <p class="kicker">SELECTED WORK</p>
+        <h2>Real infrastructure.<br><em>Real production problems.</em></h2>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card big reveal">
+          <div class="card-top"><span>01 / SECURITY</span><span>AWS + CLOUDFLARE</span></div>
+          <div>
+            <h3>Production attack mitigation</h3>
+            <p>Protected a production application from high-volume unwanted traffic by combining Cloudflare WAF custom rules, rate limiting, managed rules and origin protection at the ALB.</p>
+          </div>
+          <div class="tags"><b>Cloudflare WAF</b><b>Rate Limiting</b><b>ALB</b><b>Security</b></div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="card-top"><span>02 / FINOPS</span><span>AWS</span></div>
+          <h3>Cloud cost optimization</h3>
+          <p>Analyzed compute, database and storage usage and implemented rightsizing, Reserved Instance planning and storage optimization.</p>
+          <div class="metric">~25% <small>monthly spend reduction</small></div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="card-top"><span>03 / DEVSECOPS</span><span>CI/CD</span></div>
+          <h3>Jenkins delivery platform</h3>
+          <p>Automated build and deployment workflows with security checks integrated into the pipeline.</p>
+          <div class="tags"><b>Jenkins</b><b>SonarQube</b><b>Trivy</b><b>Snyk</b></div>
+        </article>
+
+        <article class="work-card wide reveal">
+          <div class="card-top"><span>04 / PLATFORM</span><span>KUBERNETES</span></div>
+          <h3>Containerized cloud workloads</h3>
+          <p>Managed Docker workloads across Amazon EKS, ECS and GKE with Terraform provisioning, CI/CD automation and production monitoring.</p>
+          <div class="architecture"><span>Git</span><i>→</i><span>Jenkins</span><i>→</i><span>Docker</span><i>→</i><span>EKS / ECS</span><i>→</i><span>CloudWatch</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack-section">
+      <div class="section-intro reveal">
+        <p class="kicker">ENGINEERING STACK</p>
+        <h2>Tools I use to<br><em>ship & operate.</em></h2>
+      </div>
+      <div class="stack-grid reveal">
+        <div><span>01</span><h3>Cloud</h3><p>AWS · GCP · Azure</p><small>EC2 · VPC · RDS · S3 · IAM · ALB · Route 53 · CloudWatch · GKE · Cloud SQL</small></div>
+        <div><span>02</span><h3>Infrastructure</h3><p>Terraform · Linux · Ansible</p><small>IaC · modules · state · networking · patching · automation · Bash</small></div>
+        <div><span>03</span><h3>Containers</h3><p>Docker · Kubernetes</p><small>EKS · ECS · ECR · GKE · namespaces · RBAC · deployments</small></div>
+        <div><span>04</span><h3>Delivery</h3><p>Jenkins · Git · CodePipeline</p><small>CI/CD · GitHub · Bitbucket · SonarQube · Trivy · Snyk</small></div>
+        <div><span>05</span><h3>Security</h3><p>Cloudflare · AWS Security</p><small>WAF · GuardDuty · Security Hub · IAM · CloudTrail · SSL/TLS</small></div>
+        <div><span>06</span><h3>Observability</h3><p>Prometheus · Grafana</p><small>CloudWatch · Nagios · Site24x7 · alerting · incident response</small></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-intro reveal">
+        <p class="kicker">EXPERIENCE</p>
+        <h2>From infrastructure<br><em>to incident response.</em></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-row reveal"><time>2022 — Present</time><div><h3>Cloud Infrastructure & DevOps Engineer</h3><p>Logusims Technology Pvt. Ltd. · Bengaluru</p><span>Managing multi-cloud infrastructure, CI/CD, security, monitoring, production incidents and automation.</span></div></div>
+        <div class="timeline-row reveal"><time>PROJECT</time><div><h3>SGEBIZ</h3><p>AWS Cloud & DevOps</p><span>AWS infrastructure, Terraform, Jenkins, Cloudflare, GuardDuty, Security Hub, Prometheus and Grafana.</span></div></div>
+        <div class="timeline-row reveal"><time>PROJECT</time><div><h3>Vserv / AudiencePro</h3><p>AWS Cloud & DevOps</p><span>AWS infrastructure, Terraform, Jenkins, Docker, Kubernetes, Kafka and observability.</span></div></div>
+        <div class="timeline-row reveal"><time>PROJECT</time><div><h3>QueueBuster</h3><p>Multi-cloud engineering</p><span>AWS, GCP and Azure workloads including GKE, Cloud SQL, Azure VMs, Linux, MySQL and CI/CD.</span></div></div>
+      </div>
+    </section>
+
+    <section class="cert-section reveal">
+      <div><p class="kicker">CERTIFICATION</p><h2>AWS Certified<br>Solutions Architect – Associate</h2><p>Certified in 2025.</p></div>
+      <div class="aws-badge">AWS<br><strong>SAA</strong></div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <p class="kicker">LET'S CONNECT</p>
+      <h2>Have a cloud problem<br><em>worth solving?</em></h2>
+      <p>I'm open to AWS Cloud, DevOps, SRE and infrastructure opportunities.</p>
+      <div class="hero-actions center">
+        <a class="btn btn-main" href="mailto:origantisivannarayana@gmail.com">Start a conversation ↗</a>
+        <a class="text-link" href="resume.pdf" target="_blank">View resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Siva Origanti</span><span>AWS · DEVOPS · SRE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
